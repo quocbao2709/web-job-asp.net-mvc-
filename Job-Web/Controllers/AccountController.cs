@@ -120,4 +120,12 @@ public class AccountController : Controller
         // Sử dụng BCrypt để mã hóa mật khẩu
         return BCrypt.Net.BCrypt.HashPassword(password);
     }
+    public IActionResult SomeAction()
+    {
+        ViewData["UserName"] = HttpContext.Session.GetString("UserName");
+        ViewData["Role"] = HttpContext.Session.GetString("Role");
+
+        return View();
+    }
+
 }

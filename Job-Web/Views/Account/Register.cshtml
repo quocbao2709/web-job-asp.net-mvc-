@@ -1,40 +1,69 @@
 @model UserRegisterModel
-
-<div class="container mt-5">
-    <h3 class="text-center">Register</h3>
-    <form asp-action="Register" method="post">
-        <div class="form-outline mb-4">
-            <input type="text" asp-for="Username" class="form-control" required />
-            <label class="form-label">Username</label>
-            <span asp-validation-for="Username" class="text-danger"></span>
+@{ Layout = null; }
+<head>
+    <link rel="stylesheet" href="~/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+<div class="main">
+    <section class="signup">
+        <div class="container">
+            <div class="signup-content">
+                <div class="signup-form">
+                    <h2 class="form-title">Register</h2>
+                    @if (!ViewData.ModelState.IsValid)
+                    {
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                            {
+                            <li>@error.ErrorMessage</li>
+                            }
+                        </ul>
+                    </div>
+                    }
+                    <form method="POST" asp-action="Register">
+                        <div class="form-group">
+                            <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                            <input type="text" asp-for="Username" name="Username" id="name" class="form-control" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="zmdi zmdi-email"></i></label>
+                            <input type="email" asp-for="Email" name="Email" id="email" class="form-control" placeholder="Your Email"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                            <input type="password" asp-for="Password" name="Password" id="pass" class="form-control" placeholder="Password"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                            <input type="password" name="RePassword" id="re-pass" class="form-control" placeholder="Repeat your password"/>
+                        </div>
+                        <div class="form-group">
+                            
+                            <select asp-for="Role" name="Role" id="role" class="form-control" style="width: 100%; padding: 0.8rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; background-color: #fff; transition: border-color 0.3s ease;">
+                                <option value="User">User</option>
+                                <option value="Employer">Employer</option>
+                            </select>
+                            <span asp-validation-for="Role" class="text-danger" style="font-size: 0.875rem; color: red;"></span>
+                        </div>
+                        <div class="form-group form-button">
+                            <input type="submit" name="signup" id="signup" class="form-submit" value="Register"/>
+                        </div>
+                    </form>
+                </div>
+                <div class="signup-image">
+                    <figure><img src="~/images/signup-image.jpg" alt="sign up image"></figure>
+                    <a href="~/Account/Login" class="signup-image-link">I am already a member</a>
+                </div>
+            </div>
         </div>
-
-        <div class="form-outline mb-4">
-            <input type="email" asp-for="Email" class="form-control" required />
-            <label class="form-label">Email</label>
-            <span asp-validation-for="Email" class="text-danger"></span>
-        </div>
-
-        <div class="form-outline mb-4">
-            <input type="password" asp-for="Password" class="form-control" required />
-            <label class="form-label">Password</label>
-            <span asp-validation-for="Password" class="text-danger"></span>
-        </div>
-
-        <div class="mb-4">
-            <label class="form-label">Role</label>
-            <select asp-for="Role" class="form-control">
-                <option value="User">User</option>
-                <option value="Employer">Employer</option>
-                <!-- Tùy chọn Admin có thể bị ẩn hoặc chỉ admin được sử dụng -->
-            </select>
-            <span asp-validation-for="Role" class="text-danger"></span>
-        </div>
-
-        <button type="submit" class="btn btn-primary w-100">Register</button>
-    </form>
+    </section>
 </div>
 
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
+
+<script src="~/js/jquery.min.js"></script>
+<script src="~/js/main.js"></script>
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+</body>

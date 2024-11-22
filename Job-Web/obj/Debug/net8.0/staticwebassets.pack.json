@@ -185,8 +185,380 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/css/style.css.map",
+      "PackagePath": "staticwebassets/css/style.css.map"
+    },
+    {
       "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/.DS_Store",
+      "PackagePath": "staticwebassets/fonts/.DS_Store"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/material-icon/css/material-design-iconic-font.css",
+      "PackagePath": "staticwebassets/fonts/material-icon/css/material-design-iconic-font.css"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/material-icon/css/material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets/fonts/material-icon/css/material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets/fonts/material-icon/fonts/Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets/fonts/material-icon/fonts/Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets/fonts/material-icon/fonts/Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets/fonts/material-icon/fonts/Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300italic.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300italic.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300italic.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300italic.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300italic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300italic.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300italic.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300italic.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-300italic.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-300italic.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500italic.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500italic.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500italic.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500italic.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500italic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500italic.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500italic.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500italic.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-500italic.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-500italic.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-600.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-600.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-600.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-600.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-600.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-600.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-600.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-600.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-600.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-600.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700italic.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700italic.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700italic.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700italic.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700italic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700italic.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700italic.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700italic.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-700italic.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-700italic.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800italic.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800italic.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800italic.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800italic.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800italic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800italic.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800italic.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800italic.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-800italic.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-800italic.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-900.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-900.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-900.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-900.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-900.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-900.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-900.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-900.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-900.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-900.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-italic.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-italic.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-italic.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-italic.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-italic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-italic.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-italic.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-italic.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-italic.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-italic.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-regular.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-regular.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-regular.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-regular.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-regular.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-regular.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-regular.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-regular.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/poppins-v5-latin-regular.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/poppins-v5-latin-regular.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700italic.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700italic.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700italic.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700italic.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700italic.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700italic.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700italic.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-700italic.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-italic.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-italic.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-italic.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-italic.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-italic.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-italic.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-italic.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-italic.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-italic.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-italic.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-regular.eot",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-regular.eot"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-regular.svg",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-regular.svg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-regular.ttf",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-regular.ttf"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-regular.woff",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-regular.woff"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/fonts/poppins/roboto-condensed-v16-latin-regular.woff2",
+      "PackagePath": "staticwebassets/fonts/poppins/roboto-condensed-v16-latin-regular.woff2"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/images/signin-image.jpg",
+      "PackagePath": "staticwebassets/images/signin-image.jpg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/images/signup-image.jpg",
+      "PackagePath": "staticwebassets/images/signup-image.jpg"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/js/main.js",
+      "PackagePath": "staticwebassets/js/main.js"
     },
     {
       "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/js/site.js",
@@ -419,6 +791,18 @@
     {
       "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/vendor/.DS_Store",
+      "PackagePath": "staticwebassets/vendor/.DS_Store"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/vendor/jquery/jquery-ui.min.js",
+      "PackagePath": "staticwebassets/vendor/jquery/jquery-ui.min.js"
+    },
+    {
+      "Id": "/Users/mac/RiderProjects/Job-Web/Job-Web/wwwroot/vendor/jquery/jquery.min.js",
+      "PackagePath": "staticwebassets/vendor/jquery/jquery.min.js"
     },
     {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Job-Web.Microsoft.AspNetCore.StaticWebAssets.props",

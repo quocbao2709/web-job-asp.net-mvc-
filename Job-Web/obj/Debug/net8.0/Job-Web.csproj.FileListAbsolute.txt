@@ -293,3 +293,6 @@
 /Users/mac/RiderProjects/Job-Web/Job-Web/bin/Debug/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/mac/RiderProjects/Job-Web/Job-Web/bin/Debug/net8.0/Microsoft.Extensions.Primitives.dll
 /Users/mac/RiderProjects/Job-Web/Job-Web/bin/Debug/net8.0/BCrypt.Net-Next.dll
+/Users/mac/RiderProjects/Job-Web/Job-Web/obj/Debug/net8.0/Job-Web.sourcelink.json
+/Users/mac/RiderProjects/Job-Web/Job-Web/bin/Debug/net8.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/mac/RiderProjects/Job-Web/Job-Web/bin/Debug/net8.0/System.Diagnostics.DiagnosticSource.dll

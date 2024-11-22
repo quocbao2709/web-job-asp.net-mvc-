@@ -1,19 +1,36 @@
-using Job_Web.Data; // Thêm dòng này để chắc chắn `ApplicationDbContext` được nhận diện
+using Job_Web.Data;
+using Job_Web.Middleware; // Thêm dòng này để chắc chắn `ApplicationDbContext` được nhận diện
 using Microsoft.EntityFrameworkCore;
 using Job_Web.Models;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+// Cấu hình DbContext
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Cấu hình Session
-builder.Services.AddDistributedMemoryCache(); // Lưu trữ session trong bộ nhớ
-builder.Services.AddSession(options =>
+// Cấu hình Identity
+builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddRoles<IdentityRole>();
+
+
+// Cấu hình phân quyền
+builder.Services.AddAuthorization(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian session hết hạn (30 phút)
-    options.Cookie.HttpOnly = true; // Chỉ có thể truy cập cookie qua HTTP, không thể truy cập qua JavaScript
-    options.Cookie.IsEssential = true; // Cookie này cần thiết cho ứng dụng
+    options.AddPolicy("AdminOnly", policy => policy.RequireRole("Admin"));
 });
+
+// Cấu hình Authentication (Cookie Authentication)
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login"; // Đường dẫn trang đăng nhập
+        options.AccessDeniedPath = "/Admin/Home/AccessDenied"; // Đường dẫn trang AccessDenied
+    });
+
+
 
 
 // Add services to the container.
@@ -22,27 +39,16 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// Kiểm tra và tạo tài khoản admin mặc định nếu chưa có
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
-    var context = services.GetRequiredService<ApplicationDbContext>();
+    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+    var userManager = services.GetRequiredService<UserManager<User>>();
 
-    // Kiểm tra nếu chưa có tài khoản admin
-    if (!context.Users.Any(u => u.Role == "Admin"))
-    {
-        var adminUser = new User
-        {
-            Username = "admin",
-            Email = "admin@example.com",
-            Password = BCrypt.Net.BCrypt.HashPassword("admin123"), // Mã hóa mật khẩu
-            Role = "Admin"
-        };
-
-        context.Users.Add(adminUser);
-        context.SaveChanges();
-    }
+    await SeedData.Initialize(roleManager, userManager);
 }
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -53,14 +59,19 @@ if (!app.Environment.IsDevelopment())
 }
 
 
+
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 app.UseRouting();
-
 // Sử dụng Session
 app.UseSession();
+// Đăng ký Middleware
+app.UseMiddleware<UserSessionMiddleware>();
+
 
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllerRoute(
     name: "areas",
